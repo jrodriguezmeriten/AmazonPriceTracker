@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonPriceTracker.API", "AmazonPriceTracker.API.csproj", "{64099777-B1A4-44A2-954C-CC38CFC3635F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonPriceTracker.Core", "..\AmazonPriceTracker.Core\AmazonPriceTracker.Core.csproj", "{534B18A1-E0D3-4386-B792-535E383C2208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonPriceTracker.CLI", "..\AmazonPriceTracker.CLI\AmazonPriceTracker.CLI.csproj", "{862A7192-C996-4EC6-89CF-0A49655F8807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{64099777-B1A4-44A2-954C-CC38CFC3635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64099777-B1A4-44A2-954C-CC38CFC3635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64099777-B1A4-44A2-954C-CC38CFC3635F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534B18A1-E0D3-4386-B792-535E383C2208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534B18A1-E0D3-4386-B792-535E383C2208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534B18A1-E0D3-4386-B792-535E383C2208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534B18A1-E0D3-4386-B792-535E383C2208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862A7192-C996-4EC6-89CF-0A49655F8807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862A7192-C996-4EC6-89CF-0A49655F8807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862A7192-C996-4EC6-89CF-0A49655F8807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862A7192-C996-4EC6-89CF-0A49655F8807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
